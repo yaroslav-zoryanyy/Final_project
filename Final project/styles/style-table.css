@@ -1,0 +1,456 @@
+@media screen and (min-width: 670px) and (max-width: 1024px){
+    section{
+        padding: 30px 0 40px 0;
+    }
+    .container{
+        padding: 0 15px;
+    }
+
+    /*header*/
+
+    .header_nav{
+        padding: 20px 0;
+    }
+    .header_nav-left a{
+        font-size: 26px;
+        line-height: 100%;
+        letter-spacing: 1.7px;
+    }
+    .header_nav-left span{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .header_nav-list{
+        gap: 25px;
+    }
+    .header_nav-list li a{
+        line-height: 120%;
+    }
+    .header_nav-list li a:after{
+        height: 2px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner_left,.banner_right{
+        width: 50%;
+    }
+    .banner,.banner_left{
+        gap: 15px;
+    }
+    .banner_left-title{
+        font-size: 26px;
+        width: 250px;
+    }
+    .banner_left-subtitle{
+        line-height: 140%;
+        font-size: 13px;
+    }
+    .banner_left-btn{
+        padding: 13px 38px;
+        font-size: 14px;
+    }
+    .banner-right{
+        width: 50%;
+        height: 100%;
+    }
+    .banner-right img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*about*/
+
+    .about_inner{
+        gap: 0px 30px ;
+    }
+    .about_left{
+        width: 50%;
+        height: 100%;
+    }
+    .about_left img{
+        width: 80%;
+        height: 80%;
+    }
+    .about_right{
+        width: 50%;
+        gap: 15px 0;
+    }
+    .about_right-title{
+        width: 100%;
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: 2px;
+    }
+    .about_right-subtitle{
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    /*friends*/
+
+    .friends_inner{
+        gap:30px 0;
+    }
+    .friends_inner-title{
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: 2px;
+    }
+    .friends_cards{
+        gap:0 30px;
+        width: 100%;
+    }
+    .friends_cards-card{
+        gap: 15px 0;
+        width: 30%;
+        padding-bottom: 15px;
+    }
+    .friends_cards-card span{
+        font-size: 16px;
+    }
+    .friends_cards-card button{
+        padding: 7px 22px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .friends_link{
+        padding: 10px 28px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    /*help*/
+
+    .help_inner{
+        gap: 30px;
+    }
+    .help-title{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .help_content{
+        gap: 24px;
+    }
+    .help_content-bloc{
+        gap: 20px 0;
+    }
+    .help_content-bloc img{
+        width: 40px;
+        height: 40px;
+    }
+    .help_content-bloc span{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    /*donation*/
+
+    .donation_inner{
+        gap: 0 20px;
+        width: 100%;
+    }
+    .donation_left{
+        width: 50%;
+        height: 100%;
+    }
+    .donation_left img{
+        width: 100%;
+        height: 100%;
+    }
+    .donation_right{
+        gap: 10px 0;
+        width: 50%;
+        height: 100%;
+    }
+    .donation_right-title{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .donation_right span{
+        font-size: 14px;
+    }
+    .donation_right button{
+        padding: 7px 9px;
+        border-radius: 15px;
+        gap: 0 7px;
+    }
+    .donation_right button span{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .donation_right p{
+        line-height: 14px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 20px;
+    }
+    .footer_inner{
+        gap:0 30px;
+    }
+    .footer_bloc{
+        gap: 20px 0;
+        width: 30%;
+        height: 100%;
+    }
+    .footer_bloc h3{
+        font-size: 22px;
+        line-height: 120%;
+        letter-spacing: 2px;
+    }
+    .footer_bloc a{
+        gap: 0 15px;
+    }
+    .footer_bloc a span{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .footer_bloc img{
+        max-width: 24px;
+        max-height: 24px;
+    }
+    .footer_bloc .footer_bloc-puppy{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 670px){
+    section{
+        padding: 30px 0 40px 0;
+    }
+    .container{
+        padding: 0 15px;
+    }
+
+    /*header*/
+
+    .header_nav{
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .header_nav-left a{
+        font-size: 26px;
+        line-height: 100%;
+        letter-spacing: 1.7px;
+    }
+    .header_nav-left span{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .header_nav-list{
+        display: none;
+    }
+    .header_nav-list li a{
+        line-height: 120%;
+    }
+    .header_nav-list li a:after{
+        height: 2px;
+    }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner_left,.banner_right{
+        width: 70%;
+        align-items: center;
+    }
+    .banner,.banner_left{
+        gap: 30px;
+    }
+    .banner_left-title{
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+    }
+    .banner_left-subtitle{
+        line-height: 140%;
+        font-size: 13px;
+    }
+    .banner_left-btn{
+        padding: 13px 38px;
+        font-size: 14px;
+    }
+    .banner-right{
+        width: 50%;
+        height: 100%;
+    }
+    .banner-right img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*about*/
+
+    .about_inner{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .about_left{
+        width: 70%;
+        height: 100%;
+        text-align: center;
+    }
+    .about_left img{
+        width: 60%;
+        height: 60%;
+    }
+    .about_right{
+        width: 70%;
+        gap: 15px 0;
+    }
+    .about_right-title{
+        width: 100%;
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: 2px;
+    }
+    .about_right-subtitle{
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    /*friend*/
+
+    .friends_inner{
+        gap: 30px;
+    }
+    .friends_inner-title{
+        font-size: 26px;
+        line-height: 130%;
+        letter-spacing: 2px;
+    }
+    .friends_cards{
+        gap:30px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .friends_cards-card{
+        gap: 15px 0;
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    .friends_cards-card:last-child,
+    .friends_cards-card:nth-child(2){
+        display: none;
+    }
+    .friends_cards-card span{
+        font-size: 16px;
+    }
+    .friends_cards-card button{
+        padding: 7px 22px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .friends_link{
+        padding: 10px 28px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    /*help*/
+
+    .help_inner{
+        gap: 30px;
+    }
+    .help-title{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .help_content{
+        gap: 24px;
+        width: 90%;
+    }
+    .help_content-bloc{
+        gap: 20px 0;
+    }
+    .help_content-bloc img{
+        width: 40px;
+        height: 40px;
+    }
+    .help_content-bloc span{
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    /*donation*/
+
+    .donation_inner{
+        gap: 20px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .donation_left{
+        width: 70%;
+        height: 100%;
+    }
+    .donation_left img{
+        width: 100%;
+        height: 100%;
+    }
+    .donation_right{
+        gap: 15px 0;
+        width: 70%;
+        height: 100%;
+    }
+    .donation_right-title{
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    .donation_right span{
+        font-size: 14px;
+    }
+    .donation_right button{
+        padding: 7px 9px;
+        border-radius: 15px;
+        gap: 0 7px;
+    }
+    .donation_right button span{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .donation_right p{
+        line-height: 14px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 20px;
+    }
+    .footer_inner{
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_bloc{
+        gap: 20px 0;
+        width: 70%;
+        height: 100%;
+    }
+    .footer_bloc h3{
+        font-size: 22px;
+        line-height: 120%;
+        letter-spacing: 2px;
+    }
+    .footer_bloc a{
+        gap: 0 15px;
+    }
+    .footer_bloc a span{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .footer_bloc img{
+        max-width: 24px;
+        max-height: 24px;
+    }
+    .footer_bloc .footer_bloc-puppy{
+        max-width: 70%;
+        max-height: 70%;
+    }
+}

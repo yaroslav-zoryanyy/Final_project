@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: Georgia;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 80px 0 100px 0;
+}
+header,footer{
+    width: 100%;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@font-face {
+    font-family: Georgia;
+    src: url("../fonts/georgia.ttf") format("truetype");
+}
+@font-face {
+    font-family: Arial;
+    src: url("../fonts/arial.ttf") format("truetype");
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/*header*/
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.header_nav-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header_nav-left a{
+    color: #F1CDB3;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 2px;
+}
+.header_nav-left span{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    letter-spacing: 1.3px;
+}
+.header_nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.header_nav-list li a{
+    color: #CDCDCD;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 160%;
+    padding: 5px 0;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+.header_nav-list li a:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #F1CDB3;
+    transition: all 0.3s ease-in;
+}
+.header_nav-list li a:hover{
+    color: #FAFAFA;
+}
+.header_nav-list li a:hover:after{
+    width: 100%;
+}
+.banner,.banner_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+    padding: 0;
+}
+.banner_left{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.banner_left-title{
+    width: 310px;
+    color: #FFF;
+    font-size: 44px;
+    line-height: 130%;
+}
+.banner_left-subtitle{
+    color:  #CDCDCD;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 160%;
+}
+.banner_left-btn{
+    padding: 15px 45px;
+    color: #292929;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    border-radius: 100px;
+    background-color: #F1CDB3;
+    border: none;
+    cursor: pointer;
+}
+.banner-right img{
+    max-width: 698px;
+    max-height: 726px;
+}
+/*main*/
+
+/*about*/
+.about{
+    background-color: #FFFFFF;
+}
+.about_inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px 120px ;
+}
+.about_left{
+    width: 300px;
+    height: 408px;
+}
+.about_right{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px 0;
+}
+.about_right-title{
+    width: 370px;
+    color: #545454;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.about_right-subtitle{
+    color:  #4C4C4C;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+/*friends*/
+
+.friends{
+    background-color: #F6F6F6;
+}
+.friends_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:60px 0;
+
+}
+.friends_inner-title{
+    width: 400px;
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.friends_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0 90px;
+    width: 100%;
+}
+.friends_cards-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px 0;
+    padding-bottom: 30px;
+    background-color: #FAFAFA;
+    width: 30%;
+}
+.friends_cards-card img{
+    width: 100%;
+    height: 100%;
+}
+.friends_cards-card span{
+    color: #545454;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+.friends_cards-card button{
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    cursor: pointer;
+    background: #FAFAFA;
+}
+.friends_link{
+    padding: 15px 45px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    color: #292929;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+}
+
+/*help*/
+.help_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.help-title{
+    width: 308px;
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.help_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+.help_content-bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px 0;
+}
+.help_content-bloc img{
+    width: 60px;
+    height: 60px;
+}
+.help_content-bloc span{
+    color:  #545454;
+    text-align: center;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+
+/*donation*/
+
+.donation{
+    background: #F6F6F6;
+}
+.donation_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 30px;
+}
+.donation_left{
+    width: 505px;
+    height: 261px;
+ }
+.donation_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px 0;
+    width: 380px;
+}
+.donation_right-title{
+    color: #545454;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.donation_right span{
+    color: #545454;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+.donation_right button{
+    padding: 10px 15px;
+    border-radius: 9px;
+    background:  #F1CDB3;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    border: none;
+    cursor: pointer;
+}
+.donation_right button span{
+    color: #545454;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+.donation_right p{
+    color:  #B2B2B2;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+}
+
+/*footer*/
+
+footer{
+    padding-top: 40px;
+}
+
+.footer_inner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:0 160px;
+}
+.footer_bloc{
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer_bloc h3{
+    font-weight: 400;
+    color:#FFF;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.footer_bloc a{
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer_bloc a span{
+    color: #F1CDB3;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+.footer_bloc-puppy{
+    max-width: 300px;
+    max-height: 310px;
+}
+@media screen and (min-width: 1024px) and (max-width:1320px){
+    section{
+        padding: 60px 0 80px 0;
+    }
+    .container{
+        padding: 0 30px;
+    }
+    .header_nav{
+        padding: 40px 0;
+    }
+    .banner,.banner_left{
+        gap: 32px;
+    }
+    .banner_left-title{
+        font-size: 38px;
+        line-height: 120%;
+    }
+    .banner_left-subtitle{
+        line-height: 150%;
+    }
+    .banner-right img{
+        max-width: 598px;
+        max-height: 626px;
+    }
+    .help_content {
+        gap: 100px;
+    }
+    footer{
+        padding-top: 30px;
+    }
+    .footer_inner{
+        gap:0 90px;
+    }
+    .footer_bloc{
+        gap: 30px 0;
+    }
+    .footer_bloc h3{
+        font-size: 26px;
+        line-height: 120%;
+        letter-spacing: 2px;
+    }
+    .footer_bloc a{
+        gap: 0 15px;
+    }
+    .footer_bloc a span{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .footer_bloc img{
+        max-width: 32px;
+    }
+    .footer_bloc .footer_bloc-puppy{
+        max-width: 270px;
+        max-height: 280px;
+    }
+
+}
